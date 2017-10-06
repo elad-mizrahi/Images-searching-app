@@ -1,0 +1,68 @@
+#app{
+  font: 14px 'Halvetica Neue', Helvetica, Arial, sans-serif;
+  color:#4d4d4d;
+  min-width: 600px;
+  max-width: 850px;
+  min-height: 786px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:  monospace, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.father{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+a.active{
+  color: orange;
+}
+.buttonsContainer{
+  display: flex;
+  /* margin: auto; */
+  align-content: stretch;
+}
+nav {
+  padding-top: 20px;
+}
+.imagesContainer{
+  margin: 0 auto;
+  background-origin: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 604px;
+}
+.image{
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+}
+
+body{
+  min-height: 400px;
+  background: linear-gradient(to bottom, #feffff 0%,#ddf1f9 35%,#a0d8ef 100%);
+}
+footer{
+  height: 150px;
+  width: 100%;
+  background-color: hsl(34, 53%, 82%);
+  background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+    hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+    hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+    hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+    hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+    hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 11%, 0.5) 120px, hsla(197, 62%, 11%, 0.5) 140px
+    ),
+  repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+    hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+    hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+    hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+    hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+    hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px
+  );
+}
